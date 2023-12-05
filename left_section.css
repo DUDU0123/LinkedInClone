@@ -1,0 +1,180 @@
+
+.small-profile-div{
+    border: 1px solid rgba(203, 203, 203, 0.516);
+    height: 338px;
+    width: 228px;
+    border-radius: 10px;
+    background-color: white;
+}
+.left-part-div{
+    width: 20%;
+}
+
+.bg-profile{
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(160, 180, 183);
+    border-radius: 10px 10px 0px 0px;
+}
+.left-profile-pic{
+    cursor: pointer;
+    margin-top: 20px;
+    height: 65px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.user-profession{
+    font-size: 10px;
+    color: gray;
+}
+.username{
+    cursor: pointer;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.username:hover{
+    text-decoration: underline purple;
+    cursor: pointer;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.names-text-div{
+    margin-top: 60px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+.connections{
+    cursor: pointer;
+    padding: 15px 14px 15px 14px;
+    border-top: 1px solid rgba(203, 203, 203, 0.516);
+}
+.connections:hover{
+    background-color: rgba(203, 203, 203, 0.516);
+}
+.conection-inner-div{
+    display: flex;
+}
+
+.client{
+    cursor: pointer;
+    padding: 15px 14px 15px 14px;
+    border-top: 1px solid rgba(203, 203, 203, 0.516);
+}
+.client:hover{
+    background-color: rgba(203, 203, 203, 0.516);
+}
+.client-inner-div{
+    
+    display: flex;
+}
+.text1{
+    flex: 2;
+    color: grey;
+    font-weight: bold;
+    font-size: 11px;
+    font-weight: 600;
+}
+.small-yellow-square{
+    margin-right: 6px;
+    height: 13px;
+    width: 13px;
+    border-radius: 4px;
+    background-color: rgb(220, 205, 108);
+}
+.text4{
+    margin-bottom: 4px;
+    font-size: 11px;
+    color: grey;
+
+}
+.text3{
+    color: rgb(29, 114, 199);
+    font-size: 10px;
+}
+.text2{
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 10px;
+}
+.text2:hover{
+    text-decoration: underline rgb(29, 114, 199);
+    color: rgb(29, 114, 199);
+}
+.my-items{
+    cursor: pointer;
+    padding: 15px 14px 15px 14px;
+    border-top: 1px solid rgba(203, 203, 203, 0.516);
+    align-items: center;
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+}
+.my-items:hover{
+    background-color: rgba(203, 203, 203, 0.516);
+}
+.my-item-img{
+    margin-right: 10px;
+    height: 13px;
+}
+.my-item-text{
+    font-size: 12px;
+    font-weight: 600;
+}
+.discover-more-div{
+    border: 1px solid rgba(203, 203, 203, 0.516);
+    margin-top: 10px;
+    width: 226px;
+    border-radius: 10px;
+    background-color: white;
+    height: 140px;
+}
+.discover-link{
+    margin-bottom: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(29, 114, 199);
+}
+.discover-link:hover{
+    text-decoration: underline;
+}
+.discover-event{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.discover-event-link{
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(29, 114, 199);
+    color: rgb(29, 114, 199);
+    display: flex;
+    flex: 1;
+}
+.discover-event-link:hover{
+    text-decoration: underline;
+}
+.add-img{
+    height: 12px;
+}
+.more-discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    border-top: rgba(147, 105, 105, 0.516);
+    color: grey;
+    font-size: 14px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.more-discover:hover{
+    background-color: rgba(203, 203, 203, 0.516);
+}
+.contain-div{
+    padding: 20px 10px 0px 10px;
+}

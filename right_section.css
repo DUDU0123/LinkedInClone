@@ -1,0 +1,193 @@
+/* right */
+.news-outer-div{
+    border: 1px solid rgba(203, 203, 203, 0.516);
+    height: 338px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: white;
+}
+.linkedin-news-div{
+    padding-top: 20px;
+}
+
+.linkedin-ad-div{
+    margin-top: 10px;
+    height: 250px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: white;
+}
+.news-head-div{
+    display: flex;
+    align-items: center;
+}
+.in-img{
+    height: 10px;
+    margin-right: 10px;
+}
+.heading{
+    display: flex;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.headline-text{
+    font-weight: 600;
+    font-size: 13px;
+
+}
+.news-line-div{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.circle-dot{
+    height: 6px; width: 6px;
+    background-color: black;
+    border-radius: 100px;
+}
+.duration-readers-text{
+    padding-bottom: 5px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: grey;
+}
+
+.title-subtitle:hover{
+    background-color: rgba(203, 203, 203, 0.516);
+}
+.outer{
+    margin-top: 10px;
+    row-gap: 8px;
+    display: grid;
+}
+.show-more-div{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.show-more{
+    font-size: 13px;
+    color: grey;
+}
+.ad-text{
+    font-size: 11px;
+    text-align: center;
+}
+.down-arrow{
+    height: 18px;
+}
+
+.profile-img-ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    column-gap: 20px;
+}
+
+/* next box */
+.right-profile-pic{
+    height: 65px;
+    border-radius: 100px;
+}
+.hitachi-img{
+    height: 60px;
+}
+.follow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: rgb(29, 114, 199);
+    height: 35px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid rgb(29, 114, 199);
+}
+.title-text{
+    text-align: center;
+    font-size: 15px;
+}
+.dot-img{
+    height: 18px;
+}
+.side-text{
+    padding-top: 10px;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+}
+.ad-outer{
+    place-items: center;
+    display: grid;
+    row-gap: 15px;
+    padding-top: 4px;
+}
+.copyright-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.text-logo{
+    height: 50px;
+   
+}
+.right-link-div{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.links-right{
+    word-spacing: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    font-size: 11px;
+}
+.links-right:hover{
+    text-decoration: underline;
+}
+
+.copyright-text{
+    font-size: 11px;
+    color: grey;
+}
+.message-logo{
+    border-radius: 100px;
+    height: 32px;
+}
+.message-outer-div{
+  
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+}
+.message-first-div{
+    column-gap: 10px;
+    align-items: center;
+    flex: 1;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+}
+.message-inner-div{
+    display: flex;
+    align-items: center;
+}
+.message-second-div{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.img-msg{
+    height: 15px;
+}
