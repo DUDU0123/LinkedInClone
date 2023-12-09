@@ -6,6 +6,11 @@
     border-radius: 10px;
     background-color: white;
 }
+.right-part-div{
+    width: 20%;
+    height: 400px;
+}
+
 .linkedin-news-div{
     padding-top: 20px;
 }
