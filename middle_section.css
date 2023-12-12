@@ -20,6 +20,7 @@
 }
 
 .post-logo-div {
+    cursor: pointer;
     display: flex;
     column-gap: 10px;
 }
@@ -57,6 +58,7 @@
 }
 
 .upload-type-div {
+   
     margin-top: 8px;
     justify-content: center;
     display: flex;
@@ -64,6 +66,7 @@
 }
 
 .upload-type {
+    cursor: pointer;
     border-radius: 5px;
     display: flex;
     padding: 10px;
@@ -90,11 +93,13 @@
 }
 
 .selected {
+    cursor: pointer;
     margin-left: 10px;
     font-weight: bold;
 }
 
 .sort-img {
+    cursor: pointer;
     height: 11px;
 }
 
@@ -135,17 +140,20 @@
 }
 
 .text-top-small-div {
+    cursor: pointer;
     flex: 1;
     font-size: 12px;
     color: black;
 }
 
 .img {
+    cursor: pointer;
     height: 26px;
     margin-right: 10px;
 }
 
 .img_close {
+    cursor: pointer;
     margin-left: 10px;
     height: 15px;
 }
@@ -159,23 +167,27 @@
 }
 
 .user-name {
+    cursor: pointer;
     font-size: 13px;
     font-weight: 600;
 }
 
 .user-stack_days {
+    cursor: pointer;
     color: grey;
     font-size: 11px;
     margin-top: 5px;
 }
 
 .img_add {
+    cursor: pointer;
     height: 15px;
     color: rgb(10, 102, 194);
     margin-right: 10px;
 }
 
 .blue-text {
+    cursor: pointer;
     color: rgb(10, 102, 194);
     font-weight: 600;
 }
@@ -191,6 +203,7 @@
 }
 
 .img_profile_logo {
+    cursor: pointer;
     margin-right: 10px;
     border-radius: 100px;
     height: 51px;
@@ -203,6 +216,7 @@
 }
 
 .post {
+    cursor: pointer;
     width: 100%;
 
 }
@@ -224,12 +238,14 @@
     border-bottom: 1px solid  rgba(218, 218, 218, 0.772);
 }
 .like-emoji-count {
+    
     display: flex;
     align-items: center;
     font-size: 10px;
     flex: 1;
 }
 .img_like_bottom{
+    cursor: pointer;
     margin: 0;
     padding: 2px;
     background-color: aqua;
@@ -237,6 +253,8 @@
     border-radius: 100px;
 }
 .post-bottom-buttons{
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 15px;
     margin-bottom: 8px;
     display: flex;
@@ -245,6 +263,7 @@
     justify-content: center;
 }
 .bottom_btn_img{
+    cursor: pointer;
     height: 20px;
     margin-right: 10px;
 }
@@ -253,11 +272,13 @@
     align-items: center;
 }
 .btn_name{
+    cursor: pointer;
     font-weight: 600;
     font-size: 14px;
     color: grey;
 }
 .comment_count{
+    cursor: pointer;
     font-size: 11px;
     color: grey;
 

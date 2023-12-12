@@ -43,6 +43,7 @@
 
 }
 .news-line-div{
+    cursor: pointer;
     margin-left: 10px;
     padding-left: 10px;
     padding-top: 5px;
@@ -55,7 +56,11 @@
     background-color: black;
     border-radius: 100px;
 }
+.global_img{
+    height: 9px;
+}
 .duration-readers-text{
+    cursor: pointer;
     padding-bottom: 5px;
     margin-left: 30px;
     font-size: 12px;
@@ -71,12 +76,21 @@
     display: grid;
 }
 .show-more-div{
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+    width: 95px;
+    cursor: pointer;
     margin-left: 10px;
     margin-top: 20px;
     display: flex;
     align-items: center;
 }
+.show-more-div:hover{
+    background-color: rgba(189, 189, 189, 0.61);
+}
 .show-more{
+    
     font-size: 13px;
     color: grey;
 }
@@ -98,13 +112,16 @@
 
 /* next box */
 .right-profile-pic{
+    cursor: pointer;
     height: 65px;
     border-radius: 100px;
 }
 .hitachi-img{
+    cursor: pointer;
     height: 60px;
 }
 .follow-btn{
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,10 +133,12 @@
     border: 1px solid rgb(29, 114, 199);
 }
 .title-text{
+    cursor: pointer;
     text-align: center;
     font-size: 15px;
 }
 .dot-img{
+    cursor: pointer;
     height: 18px;
 }
 .side-text{
@@ -133,6 +152,7 @@
     place-items: center;
     display: grid;
     row-gap: 15px;
+    place-content: center;
     padding-top: 4px;
 }
 .copyright-div{

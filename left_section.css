@@ -134,6 +134,7 @@
     height: 140px;
 }
 .discover-link{
+    cursor: pointer;
     margin-bottom: 12px;
     font-size: 11px;
     font-weight: 600;
@@ -148,6 +149,7 @@
     align-items: center;
 }
 .discover-event-link{
+    cursor: pointer;
     font-size: 11px;
     font-weight: 600;
     color: rgb(29, 114, 199);
@@ -159,9 +161,11 @@
     text-decoration: underline;
 }
 .add-img{
+    cursor: pointer;
     height: 12px;
 }
 .more-discover{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;

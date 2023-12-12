@@ -1,130 +1,171 @@
 
-@media only screen  and (max-width: 767px) {
-    .main-body {
-        padding: 28px 70px 0px 10px;
-        display: inline;
-        
-    }
-    .middle-part-div {
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
-    }
-    .right-part-div{
-        width: 100%;
-        height: 400px;
-    }
-    .news-outer-div{
-        margin-top: 10px;
-        border: 1px solid rgba(203, 203, 203, 0.516);
-        height: 338px;
-        width: 99%;
-        border-radius: 10px;
-        background-color: white;
-    }
-    .linkedin-ad-div{
-        margin-top: 10px;
-        height: 250px;
-        width: 99%;
-        border-radius: 10px;
-        background-color: white;
-    }
-    .small-profile-div{
-        border: 1px solid rgba(203, 203, 203, 0.516);
-        height: 338px;
-        width: 99%;
-        border-radius: 10px;
-        background-color: white;
-    }
-    .left-part-div{
-        width: 100%;
-    }
-    .discover-more-div{
-        margin-bottom: 10px;
-        border: 1px solid rgba(203, 203, 203, 0.516);
-        margin-top: 10px;
-        width: 99%;
-        border-radius: 10px;
-        background-color: white;
-        height: 140px;
-    }
-    .post-upload-top-div {
-        padding: 11px 15px 5px 15px;
-        border-radius: 10px;
-        width: 93%;
-        height: 100px;
-        background-color: white;
-    }
-    .post-outer-div {
-        margin-top: 10px;
-        width: 99%;
-        border-radius: 10px;
-        background-color: white;
-        border: 1px solid rgba(218, 218, 218, 0.772);
-    }
-}
+@media only screen and (max-width: 578px){
 
-@media only screen and (min-width:768px) and (max-width: 992px){
-    .right-part-div{
-        display: none;
+    .upload-text {
+        margin-left: 5px;
+        font-size: 13px;
+        margin-top: 3px;
     }
-    .left-part-div{
-        width: 50%;
-    }
-    .middle-part-div {
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
-    }
-    .post-upload-top-div {
-        padding: 11px 15px 5px 15px;
-        border-radius: 10px;
-        width: 93%;
-        height: 100px;
-        background-color: white;
-    }
-    .post-outer-div {
-        margin-top: 10px;
-        width: 99%;
-        border-radius: 10px;
-        background-color: white;
-        border: 1px solid rgba(218, 218, 218, 0.772);
-    }
-    .main-body {
-        display: flex;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-bottom: 0px;
-        padding-right: 0px;
-    }
-}
 
-
-
-@media only screen and (min-width:993px) and (max-width:1198px){
-    .right-part-div{
-        width: 23%;
-        height: 400px;
-    }
-    .left-part-div{
-        width: 30%;
-    }
-    .middle-part-div {
-        margin-left: 20px;
-        margin-right: 0px;
-        width: 100%;
-    }
-    .length-line {
-        width: 75%;
-        border-top: 1px solid black;
-    }
     .line-sort {
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 0px;
         font-size: 11px;
         display: flex;
         align-items: center;
     }
+    .main-body {
+        justify-content: center;
+        align-items: center;
+        display: inline;
+    }
+
+    .post-bottom-buttons {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+        justify-content: center;
+    }
+
+    .middle-part-div {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .right-part-div {
+        width: 100%;
+        height: 400px;
+    }
+
+    .news-outer-div {
+        margin-top: 10px;
+        border: 1px solid rgba(203, 203, 203, 0.516);
+        height: 338px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .linkedin-ad-div {
+        margin-top: 10px;
+        height: 250px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .small-profile-div {
+        border: 1px solid rgba(203, 203, 203, 0.516);
+        height: 338px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .left-part-div {
+        width: 100%;
+    }
+
+    .discover-more-div {
+        margin-bottom: 10px;
+        border: 1px solid rgba(203, 203, 203, 0.516);
+        margin-top: 10px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+        height: 140px;
+    }
+
+    .post-upload-top-div {
+        padding: 11px 15px 5px 15px;
+        border-radius: 10px;
+        width: 91%;
+        height: 100px;
+        background-color: white;
+    }
+
+    .post-outer-div {
+        margin-top: 10px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+        border: 1px solid rgba(218, 218, 218, 0.772);
+    }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width:579px){
+    .main-body {
+        padding: 28px 70px 0px 10px;
+        display: inline;
+    }
+    
+    .post-bottom-buttons {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 80px;
+        justify-content: center;
+    }
+
+    .middle-part-div {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .right-part-div {
+        width: 100%;
+        height: 400px;
+    }
+
+    .news-outer-div {
+        margin-top: 10px;
+        border: 1px solid rgba(203, 203, 203, 0.516);
+        height: 338px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .linkedin-ad-div {
+        margin-top: 10px;
+        height: 250px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .small-profile-div {
+        border: 1px solid rgba(203, 203, 203, 0.516);
+        height: 338px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .left-part-div {
+        width: 100%;
+    }
+
+    .discover-more-div {
+        margin-bottom: 10px;
+        border: 1px solid rgba(203, 203, 203, 0.516);
+        margin-top: 10px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+        height: 140px;
+    }
+
     .post-upload-top-div {
         padding: 11px 15px 5px 15px;
         border-radius: 10px;
@@ -132,6 +173,154 @@
         height: 100px;
         background-color: white;
     }
+
+    .post-outer-div {
+        margin-top: 10px;
+        width: 97%;
+        border-radius: 10px;
+        background-color: white;
+        border: 1px solid rgba(218, 218, 218, 0.772);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+
+    .right-part-div {
+        display: none;
+    }
+    .upload-type-div {
+        margin-top: 8px;
+        justify-content: center;
+        display: flex;
+        column-gap: 40px;
+    }
+    
+    .upload-text {
+        margin-top: 5px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .left-part-div {
+        width: 35%;
+    }
+
+    .middle-part-div {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 60%;
+    }
+
+    .post-upload-top-div {
+        padding: 11px 15px 5px 15px;
+        border-radius: 10px;
+        width: 93%;
+        height: 100px;
+        background-color: white;
+    }
+
+    .post-outer-div {
+        margin-top: 10px;
+        width: 99%;
+        border-radius: 10px;
+        background-color: white;
+        border: 1px solid rgba(218, 218, 218, 0.772);
+    }
+
+    .main-body {
+        display: flex;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    .post-bottom-buttons {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 43px;
+        justify-content: center;
+    }
+}
+
+
+
+@media only screen and (min-width:993px) and (max-width:1198px) {
+
+    .right-link-div{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 30px;
+    
+    }
+    .copyright-div{
+        width: 260px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .post-bottom-buttons {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 38px;
+        justify-content: center;
+    }
+    .upload-text {
+        margin-left: 5px;
+        font-size: 13px;
+        margin-top: 3px;
+    }
+    .upload-type-div {
+        margin-top: 8px;
+        justify-content: center;
+        display: flex;
+        column-gap: 30px;
+    }
+    .right-part-div {
+        width: 10%;
+        height: 400px;
+    }
+
+    .left-part-div {
+        width: 24%;
+    }
+
+    .middle-part-div {
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    .length-line {
+        width: 75%;
+        border-top: 1px solid black;
+    }
+
+    .line-sort {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+    }
+
+    .post-upload-top-div {
+        padding: 11px 15px 5px 15px;
+        border-radius: 10px;
+        width: 90%;
+        height: 100px;
+        background-color: white;
+    }
+
     .post-outer-div {
         margin-top: 10px;
         width: 94%;
@@ -139,6 +328,7 @@
         background-color: white;
         border: 1px solid rgba(218, 218, 218, 0.772);
     }
+
     .main-body {
         display: flex;
         padding-left: 10px;
@@ -148,19 +338,45 @@
 
 
 
-@media only screen and (min-width:1199px){
-    .right-part-div{
+@media only screen and (min-width:1199px) {
+    .right-link-div{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 30px;
+    
+    }
+    .copyright-div{
+        width: 260px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .post-bottom-buttons {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 90px;
+        justify-content: center;
+    }
+
+    .right-part-div {
         width: 20%;
         height: 400px;
     }
-    .left-part-div{
+
+    .left-part-div {
         width: 20%;
     }
+
     .middle-part-div {
         margin-left: 10px;
         margin-right: 10px;
         width: 100%;
     }
+
     .post-upload-top-div {
         padding: 11px 15px 5px 15px;
         border-radius: 10px;
@@ -168,6 +384,7 @@
         height: 100px;
         background-color: white;
     }
+
     .post-outer-div {
         margin-top: 10px;
         width: 100%;
@@ -175,6 +392,7 @@
         background-color: white;
         border: 1px solid rgba(218, 218, 218, 0.772);
     }
+
     .main-body {
         display: flex;
         padding-left: 10px;
